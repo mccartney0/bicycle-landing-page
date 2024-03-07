@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bicycle Shop</title>
+    <link rel="icon" href="./assets/logo.svg" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./assets/logo.svg" alt="Bicycle shop logo">
+      </div>
+
+      <div id="banner">
+        <img src="https://www.herocycles.com/on/demandware.static/-/Sites-HeroCycles-Library/default/dw4f2653c4/Homepage/Riderzone/Riderzone_Section.jpg" alt="Bicycle banner 1" />
+        <img src="https://www.herocycles.com/on/demandware.static/-/Sites-HeroCycles-Library/default/dw65feabad/Homepage/BikersSpeak/Bikers_Speak_1.jpg" alt="Bicycle banner 2" />
+        <img src="https://www.herocycles.com/on/demandware.static/-/Sites-HeroCycles-Library/default/dwe74dd7be/assets/images/shutterstock-1455172898-copy2x_150.jpg" alt="Bicycle banner 3" />
+      </div>
+
+      <div class="form-container">
+        <form id="myForm" class="d-flex flex-column align-items-center">
+          <div class="inputs-container d-flex">
+            <div class="input-container d-flex flex-column">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </div>
+  
+            <div class="input-container d-flex flex-column">
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="igoal@igoal.com"
+              >
+            </div>
+  
+            <div class="input-container d-flex flex-column">
+              <label for="phone">Phone:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(xx) xxxxx-xxxx"
+                maxlength="15"
+              >
+            </div>
+          </div>
+
+          <div class="submit-button">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <main class="pt-5 mt-5">
+      <section class="first-posts-container pt-">
+        <div class="post">
+          <div class="post-content">
+            <div class="post-image">
+              <img src="https://images.tcdn.com.br/img/img_prod/788812/1648667548_banner-luva-groove-03.jpg" alt="Imagem do Post 1">
+            </div>
+            <div class="post-text">
+              <h3>Acessórios e muito mais</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla vel ex aliquam vehicula.</p>
+              <a class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Acesse</a>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-content">
+            <div class="post-image">
+              <img src="https://images.tcdn.com.br/img/img_prod/788812/1655928204_bicicleta-mountain-bike-aro-29-groove-ska-12-velocidades-03.jpg" alt="Imagem do Post 2">
+            </div>
+            <div class="post-text">
+              <h3>Conheça já linha Groove</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla vel ex aliquam vehicula.</p>
+              <a class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Leia Mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div>
+            <div class="card text-center">
+              <div class="card-body">
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ”
+                </p>
+              </div>
+                
+              <div class="user-info">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
+                <h5>
+                  Ronne Galle
+                  <br />
+                  <span> Marketing </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center">
+              <div class="card-body">
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” 
+                </p>
+              </div>
+                
+              <div class="user-info">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
+                <h5>
+                  Missy Limana
+                  <br />
+                  <span> Engineer </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center">
+              <div class="card-body">
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” 
+                </p>
+              </div>
+                
+              <div class="user-info">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
+                <h5>
+                  Martha Brown
+                  <br />
+                  <span> Designer </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center">
+              <div class="card-body">
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” 
+                </p>
+              </div>
+                
+              <div class="user-info">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
+                <h5>
+                  Hanna Lisem
+                  <br />
+                  <span> Sales </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="second-posts-container">
+        <div class="post">
+          <div class="post-content">
+            <h2>Post Title 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla vel ex aliquam vehicula. Nulla id felis et urna sollicitudin efficitur. Phasellus quis mi at ligula consectetur aliquet.</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-content">
+            <h2>Post Title 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla vel ex aliquam vehicula. Nulla id felis et urna sollicitudin efficitur. Phasellus quis mi at ligula consectetur aliquet.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="./assets/white-logo.svg" alt="Bicycle shop logo">
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
